@@ -1,0 +1,22 @@
+.user-list {
+
+    .user-list-title {
+        @apply text-3xl font-black m-7 text-gray-800 fixed;
+    }
+
+    .user-list-content {
+        @apply bg-white flex fixed top-24 w-full;
+
+        .left-content {
+            @apply p-6 bg-gray-100 border-r border-t border-gray-200 w-72 flex-initial;
+
+            .title {
+                @apply font-semibold text-lg text-center mb-4;
+            }
+        }
+
+        .right-content {
+            @apply p-6 overflow-scroll h-[calc(100vh-6rem)] flex-1;
+        }
+    }
+}

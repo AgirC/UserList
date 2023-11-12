@@ -1,0 +1,38 @@
+.users-table {
+    .table-header {
+        @apply font-semibold text-base;
+    }
+
+    .table-row {
+        @apply cursor-pointer;
+
+        &:nth-child(even) {
+            @apply bg-gray-100;
+        }
+
+        &:hover {
+            @apply bg-gray-300;
+        }
+    }
+}
+
+.no-results {
+    @apply w-full text-center;
+    .no-results-text {
+        @apply font-bold text-4xl p-5;
+    }
+
+    .icon {
+        @apply text-center w-36 h-36;
+
+        .svg-icon {
+            @apply w-36 h-36;
+
+        }
+    }
+}
+
+.loader {
+    @apply flex justify-center;
+
+}

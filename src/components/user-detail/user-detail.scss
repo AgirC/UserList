@@ -1,0 +1,33 @@
+.user-detail-title {
+    @apply text-2xl font-bold w-full text-center p-5;
+}
+
+.user-detail-content {
+    @apply flex;
+
+
+    .user-detail-left {
+        @apply text-center p-5 border-r-2;
+    }
+
+    .user-detail-right {
+        @apply flex flex-col justify-center px-5;
+
+        .item {
+            @apply py-3;
+
+            .icon {
+                @apply mx-2 align-middle;
+            }
+            
+            .title {
+                @apply text-lg font-bold align-middle;
+            }
+            .subtitle {
+                @apply text-base font-normal text-gray-500 align-middle;
+            }
+
+        }
+
+    }
+}
